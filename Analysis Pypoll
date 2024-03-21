@@ -17,7 +17,8 @@ with open(csv_file_path, 'r') as file:
 
     #Loop through each row in the csv file
     for row in reader:
-        if len(row) >= 3:    # Check if row has at least 3 elements i learned this from chatgpt
+        if len(row) >= 3:    # Check if row has at least 3 elements 
+#i learned this from chatgpt i originally did not have it in here but kept getting the error of "list index out of range"
             total_votes += 1
             candidate = row[2]
 
