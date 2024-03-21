@@ -1,7 +1,7 @@
 import csv
 
 # File path to the CSV file
-csv_file_path = r'C:\Users\nduag\OneDrive\Documents\data boot camp\python-challenge\PyBank resources'
+csv_file_path = r'\Users\nduag\OneDrive\Documents\data boot camp\python-challenge\PyBank resources'
 
 def financial_analysis(csv_file):
     # determine variables to store data
