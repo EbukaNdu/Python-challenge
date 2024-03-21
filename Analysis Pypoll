@@ -13,15 +13,11 @@ max_votes = 0
 # Read the CSV file
 with open(csv_file_path, 'r') as file:
     reader = csv.reader(file)
-    
-    # Read the CSV file
     next(reader)
 
     #Loop through each row in the csv file
     for row in reader:
-        
-         # Check if row has at least 3 elements
-        if len(row) >= 3:
+        if len(row) >= 3:    # Check if row has at least 3 elements i learned this from chatgpt
             total_votes += 1
             candidate = row[2]
 
